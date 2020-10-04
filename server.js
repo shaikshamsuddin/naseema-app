@@ -27,7 +27,7 @@ app.use("/delete",require("./deleteEmployee/deleteEmployee"));
 
 
 let port = process.env.PORT || 8080;
-console.log(process.env.PORT);
+//console.log(process.env.PORT);
 //assign the port no
 app.listen(port);
 console.log(`server listening the port no.${port}`);
