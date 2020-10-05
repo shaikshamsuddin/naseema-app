@@ -7,7 +7,7 @@ let mongodb = require("mongodb");
 let sambaIT = mongodb.MongoClient;
 
 //let url = "mongodb+srv://admin:admin@miniprojectdb.nzphu.mongodb.net/<dbname>?retryWrites=true&w=majority";
-let url = "mongodb+srv://admin:admin@cluster0.sxtft.mongodb.net/micropyramid?retryWrites=true&w=majority" || "mongodb://localhost:27017/miniprojectdb";
+let url = "mongodb+srv://admin:admin@cluster0.sxtft.mongodb.net/micropyramid?retryWrites=true&w=majority" || "mongodb://localhost:27017/micropyramid";
 
 //"mongodb://localhost:27017/miniprojectdb";
 

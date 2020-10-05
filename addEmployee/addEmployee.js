@@ -1,7 +1,7 @@
 
 let mongodb = require("mongodb");
 let sambaIT = mongodb.MongoClient;
-let url = "mongodb+srv://admin:admin@cluster0.sxtft.mongodb.net/micropyramid?retryWrites=true&w=majority" || "mongodb://localhost:27017/miniprojectdb";
+let url = "mongodb+srv://admin:admin@cluster0.sxtft.mongodb.net/micropyramid?retryWrites=true&w=majority" || "mongodb://localhost:27017/micropyramid";
 let addEmployee = require("express").Router().post("/",(req,res)=>{
         let newRecord = {
             "Name":req.body.Name,
